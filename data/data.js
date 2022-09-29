@@ -1,5 +1,5 @@
 export const projectInfo = {
-    name:"Westminster Christian School",
+    name:"University School of Nashville",
     type: "",
     frames: "",
     version:"",
@@ -25,7 +25,7 @@ export const tocItemInfo = [
         id: 1,
         title: "Homepage and Hover/On States",
         frameStart: "1",
-        frameEnd: "2",
+        frameEnd: "3",
         description: "Westminster's new homepage featuring an updated and modern aesthetic. These first two slides feature both the homepage and various on/hover states for intactive items",
 
     },
