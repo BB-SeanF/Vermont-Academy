@@ -7,8 +7,8 @@ import { fixedNavGraphic } from "../data/data";
 import { projectInfo } from "../data/data";
 
 export default function PresImage( {frame, totalFrames} ) {
-    const imageWidth = frame.img.clientWidth;
-    const renderWidth = parseInt(imageWidth) + 18 + "px"
+    //const imageWidth = frame.img.clientWidth;
+    const renderWidth = parseInt(frame.width) + 18 + "px"
     
     const animVariants ={
         hidden: {opacity: 0, x: -200, y: 0},
