@@ -57,12 +57,14 @@ export default function PresImage( {frame, totalFrames} ) {
                 height: fixedNavGraphic.initial.height,
                 width: fixedNavGraphic.initial.width,
                 opacity: initialOpacity,
+                marginTop: "1px",
             }
             const navBarScrolled ={
                 backgroundImage: `url(${fixedNavGraphic.scrolled.img})`,
                 height: fixedNavGraphic.scrolled.height,
                 width: fixedNavGraphic.scrolled.width,
                 opacity: scrollOpacity,
+                marginTop: "1px",
             }
             
             return (
