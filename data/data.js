@@ -105,7 +105,7 @@ export const projectFrames = [
     },
     {
         id:6,
-        img:"/images/mr.jpg",
+        img:"/images/vc.jpg",
         height:"2573px",
         width: "1600px",
         title: "Sample Layout: Varied Content",
