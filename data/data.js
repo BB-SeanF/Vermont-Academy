@@ -33,7 +33,7 @@ export const tocItemInfo = [
         id: 2,
         title: "Sample Layout Pages",
         frameStart: "3",
-        frameEnd: "5",
+        frameEnd: "6",
         description: "A site is much more than just its homepage. Showcased on these slides are some example interior pages utilizing dummy content to give a rough idea of how the rest of the site will come together with this new design",
 
     },
