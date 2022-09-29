@@ -55,8 +55,8 @@ export const projectFrames = [
         width: "1600px",
         title: "USN's New Homepage",
         frameGroup:1,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description: "",//"<p>Welcome to Westminster's New Website!. What's on show here across the presentation is an effort to bring together various design aesthetics, from existing brand material, the sites that were listed as references, as well as notes from the first session. Ideally all of this combined into a clean, modern aesthetic that vastly improves the current site design and experience.</p><p>The flow of the homepage is logical, opening like most with a large hero section with tagline text and call to action links nicely framed within the section. As the visitor scrolls they are met with an introduction section and large image links that funnel them to various sections of the site of your choosing. Beyond this is news and event section, with one highlighted news story and a list of upcoming events. As per our initial discussion the homepage has been kept fairly simple, closing out with a quote and final call to action section. As we were hesitant to use \"Apply\" as a link, the final two links are instead just inquiry and visit links, though these can absolutely be expanded in the future.</p>",
     },
     {
@@ -66,8 +66,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Homepage Hover/On States",
         frameGroup:1,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:"",//"<p>With Accessability being a cheif concern, care went into how interactivty would be handled on the site, as that's where most of accessability pitfalls occur. Additionally, with this being a fairly static mock up presentation, it can be difficult to preview all of the different interactivity and microinteractions that the design will have. The plan is to have each of the elements on the HP transition in very similar to the referenced Bentley School, or other blackbaud schools with that feature applied. While we can discuss this further, I did opt for a simple drop down menu with accessiblity being the largest factor. If a mega menu is truely desired, we can loop back to this and enhance what's here.</p>",
     },
    {
@@ -88,8 +88,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Sample Layout: Landing Page",
         frameGroup:2,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:``,//`<p>A school website is more than just the homepage, and as such this presentation includes three different sample interior layouts to preview. Each of these vary in scope and content (though they all use placeholder content), but they are all meant to showcase how interior pages can look with this new site design.</p><p>The first of these layouts has been dubbed "Landing Page" for it's overall scope of cotnent and somewhat centered layout that would do well as an introduction page to a section.</p>`,
     },
     {
@@ -99,8 +99,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Sample Layout: Wide Left, Skinny Right",
         frameGroup:2,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:``,//`<p>A school website is more than just the homepage, and as such this presentation includes three different sample interior layouts to preview. Each of these vary in scope and content (though they all use placeholder content), but they are all meant to showcase how interior pages can look with this new site design.</p><p>The second layout is aptly named the "Wide Left, Skinny Right" layout and is by far one of the most common layout schemes across websites. Great for pages whose content, while important, doesn't need to be as engaging as a landing page or other pages.</p>`,
     },
     {
@@ -110,8 +110,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Sample Layout: Varied Content",
         frameGroup:2,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:``,//`<p>A school website is more than just the homepage, and as such this presentation includes three different sample interior layouts to preview. Each of these vary in scope and content (though they all use placeholder content), but they are all meant to showcase how interior pages can look with this new site design.</p><p>The last of the provided samples, the "Mixed Row Layout" showcases the flexibilty you'll have with the design. While a landing page isn't right for every page, and a simple layout might not do more engaging content justice, something in the middle might serve a page better.</p><p>Also, immediately apparent here is the lack of a page banner. We understand that sometimes, finding the right or relevant page banner for every single page can be difficult. This type of page "banner" region is another solution for pages that don't actually need a banner, like forms, or deeper sub pages. You may not use this banner design a lot, but it's there for when you need it.</p>`,
     },
      /*{
@@ -140,14 +140,14 @@ export const projectFrames = [
 
 export const fixedNavGraphic = {
     initial:{
-        img:"/images/navBar.png",
+        img:"/images/nav.png",
         width:"1600px",
-        height:"104px",
+        height:"119px",
     },
     scrolled: {
-        img:"/images/navBarSolid.png",
+        img:"/images/navScrolled.png",
         width:"1600px",
-        height:"104px",
+        height:"119px",
     }
 }
 
