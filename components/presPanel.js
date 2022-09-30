@@ -28,7 +28,7 @@ export default function PresPanel ({frame}) {
         </div>
         <motion.aside layout className={`w-96 z-20 flex flex-col fixed right-5 bg-white border shadow-brutal shadow-gray-900 border-gray-900 dark:border-gray-700 dark:shadow-gray-700 dark:bg-gray-900 dark:text-gray-400 prose `} initial="hidden" animate={showPanel ? "enter" : "exit"} exit="exit" variants={panelAnimations}>
             <motion.h1 key={frame.title} className="px-10 py-5 mb-0 text-xl bg-gray-200 text-gray-900 dark:text-white dark:bg-gray-800 border-b border-gray-900 dark:border-gray-700" initial="hidden" animate="enter" variants={textAnimations}>{frame.title || "Title"}</motion.h1>
-            <motion.div key={frame.description} className="px-10 pb-5 pt-5 grow text-sm overflow-y-scroll max-h-[900px] scrollbar" dangerouslySetInnerHTML={{__html: frame.description}} initial="hidden" animate="enter" variants={textAnimations}/>  
+            <motion.div key={frame.description} className="px-10 pb-5 pt-5 grow text-sm overflow-y-scroll max-h-[700px] scrollbar" dangerouslySetInnerHTML={{__html: frame.description}} initial="hidden" animate="enter" variants={textAnimations}/>  
         </motion.aside>
         </>
     )
