@@ -85,7 +85,7 @@ export default function PresImage( {frame, totalFrames} ) {
                     <div className="p-1.5 border border-gray-900 bg-gray-900 dark:border-gray-700 dark:bg-gray-700"></div>
                     <div className="p-1.5 border border-gray-900 bg-gray-900 dark:border-gray-700 dark:bg-gray-700"></div>
                 </div>
-                <h2 className="w-1/4 col-span-full row-start-1 mx-auto tracking-[.5em] bg-gray-100 text-gray-900 text-xs font-black uppercase px-2.5 py-1 dark:bg-gray-800 dark:text-gray-300">{projectInfo.name}</h2>
+                <h2 className="w-1/3 col-span-full row-start-1 mx-auto tracking-[.5em] bg-gray-100 text-gray-900 text-xs font-black uppercase px-2.5 py-1 dark:bg-gray-800 dark:text-gray-300">{projectInfo.name}</h2>
                 <NavGraphic/>
             </header>
             <article className=" overflow-y-scroll scrollbar transition-all text-[0] bg-gray-900 max-h-[900px]" ref={imageContainer}>
