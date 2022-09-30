@@ -26,13 +26,13 @@ export const tocItemInfo = [
         title: "Homepage and Hover/On States",
         frameStart: "1",
         frameEnd: "3",
-        description: "Westminster's new homepage featuring an updated and modern aesthetic. These first two slides feature both the homepage and various on/hover states for intactive items",
+        description: "USN's new homepage featuring an updated and modern aesthetic. These first two slides feature both the homepage and various on/hover states for intactive items, while the third shows how the navigation will appear when interacted with.",
 
     },
     {
         id: 2,
         title: "Sample Layout Pages",
-        frameStart: "3",
+        frameStart: "4",
         frameEnd: "6",
         description: "A site is much more than just its homepage. Showcased on these slides are some example interior pages utilizing dummy content to give a rough idea of how the rest of the site will come together with this new design",
 
@@ -57,7 +57,19 @@ export const projectFrames = [
         frameGroup:1,
         navGraphic: true,
         navGraphicToChange: true,
-        description: "",//"<p>Welcome to Westminster's New Website!. What's on show here across the presentation is an effort to bring together various design aesthetics, from existing brand material, the sites that were listed as references, as well as notes from the first session. Ideally all of this combined into a clean, modern aesthetic that vastly improves the current site design and experience.</p><p>The flow of the homepage is logical, opening like most with a large hero section with tagline text and call to action links nicely framed within the section. As the visitor scrolls they are met with an introduction section and large image links that funnel them to various sections of the site of your choosing. Beyond this is news and event section, with one highlighted news story and a list of upcoming events. As per our initial discussion the homepage has been kept fairly simple, closing out with a quote and final call to action section. As we were hesitant to use \"Apply\" as a link, the final two links are instead just inquiry and visit links, though these can absolutely be expanded in the future.</p>",
+        description: `<p>Welcome to USN’s new Website! Based on our last conversation, along with all the notes I received initially, it was clear from the jump that everyone agreed that an update was long overdue but had different thoughts on how to get there. The presented design is a showcase of how everyone’s thoughts, ideas, and preferences have been combined to bring USN’s site forward.</p> 
+
+        <p>This is also a design where the static nature of the mockup presentation limits me a bit more than I’d like, forcing me to rely on these notes to explain in greater detail how some items and interactions will behave on the final site. Starting with our Homepage, on initial load visitors will see the large image before the “Welcome To” and CTA (Call to Action) buttons fade in. <em>after these fade in</em> (or if the user immediately scrolls) will the top navigation and logotype fade in. Across different print materials I noticed the use of just the name of the school written out and opted to use it as our main navigation as it ties with the rest of the aesthetic I am leaning towards. We do however see the seal, and “USN” in the footer.</p> 
+        
+        <p> Scrolling down the page we are introduced to the first section of the homepage, pulling double duty as an introduction and “at a glance” section. The four statistics here were pulled from various places, but they can really be anything, along with all the copy we see on the page being as flexible as you would like. The “learn more” button here could lead to the about section’s “At a Glance” or even the main admissions page depending on how the final text reads here.</p> 
+        
+        <p>The next section is specific for curriculum, with large links for each of the different school levels. A big note that was repeated here was just how boxy the current site feels. This new design aims to break out of that contained feel with something more open and elegant. These three links, when hovered over, will spring to life with color, though this is shown on the next slide.</p> 
+        
+        <p>The next section’s layout mirrors the introduction region above, but also provides something new for USN. This section will allow you to feature different elements of the school on the homepage. While “Traditions” “Go Tigers!” etc are listed here, these options can be really any facet of the school you wish to highlight. When a user selects one of these, both the description text <em> and image will change. Historically this was not achievable on the platform, though we have recently opened the door to some small custom coding to fill in product gaps as we can. “Tabbed” content is requested a fair amount, and one we can solve for now with this approach.</p> 
+        
+        <p>I am closing out the homepage with a news and event section. We are also contrasting the rest of the layout to have this further stand out as its own section. With news first we see one, large, featured story along with three other headlines and photos, allowing visitors to get a glimpse into the recent happenings around the school. Below all of this is a horizontal events carousel</p> 
+        
+        <p>The site’s footer rounds out this and all pages of the site. CTA links are repeated here (and therefore will appear on every page in a non-intrusive manner). The formal USN and Seal logo also is included here. The rest of the footer includes the standard fare, with the address, resource links, social media icons, and boilerplate text.</p>`, 
     },
     {
         id:2,
