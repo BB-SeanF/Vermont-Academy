@@ -2,7 +2,7 @@ export const projectInfo = {
     name:"Vermont Academy",
     type: "plus",
     frames: "",
-    version:"1",
+    version:"2",
 }
 
 export const projectTypes = [
