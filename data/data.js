@@ -51,7 +51,7 @@ export const projectFrames = [
     {
         id:1,
         img:"/images/hp1.jpg",
-        height:"4987px",
+        height:"4633px",
         width: "1600px",
         title: "USN's New Homepage",
         frameGroup:1,
@@ -74,7 +74,7 @@ export const projectFrames = [
     {
         id:2,
         img:"/images/hp2.jpg",
-        height:"4987px",
+        height:"4633px",
         width: "1600px",
         title: "Homepage Hover/On States",
         frameGroup:1,
@@ -98,7 +98,7 @@ export const projectFrames = [
     {
         id:4,
         img:"/images/lp.jpg",
-        height:"3767px",
+        height:"3107px",
         width: "1600px",
         title: "Sample Layout: Landing Page",
         frameGroup:2,
@@ -109,7 +109,7 @@ export const projectFrames = [
     {
         id:5,
         img:"/images/wlsr.jpg",
-        height:"2580",
+        height:"2243",
         width: "1600px",
         title: "Sample Layout: Wide Left, Skinny Right",
         frameGroup:2,
@@ -121,7 +121,7 @@ export const projectFrames = [
     {
         id:6,
         img:"/images/vc.jpg",
-        height:"3447px",
+        height:"2835px",
         width: "1600px",
         title: "Sample Layout: Varied Content",
         frameGroup:2,
@@ -157,12 +157,12 @@ export const fixedNavGraphic = {
     initial:{
         img:"/images/nav.png",
         width:"1600px",
-        height:"119px",
+        height:"88px",
     },
     scrolled: {
         img:"/images/navScrolled.png",
         width:"1600px",
-        height:"119px",
+        height:"88px",
     }
 }
 
