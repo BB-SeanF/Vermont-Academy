@@ -1,8 +1,8 @@
 export const projectInfo = {
-    name:"University School of Nashville",
-    type: "",
+    name:"Vermont Academy",
+    type: "plus",
     frames: "",
-    version:"",
+    version:"1",
 }
 
 export const projectTypes = [
@@ -20,13 +20,28 @@ export const projectTypes = [
     },
 ]
 
+export const projectVersion = [
+    {
+        display: 'first',
+        key: '1'
+    },
+    {
+        display: 'second',
+        key: '2'
+    },
+    {
+        display: 'third',
+        key: '3'
+    }
+]
+
 export const tocItemInfo = [
     {
         id: 1,
         title: "Homepage and Hover/On States",
         frameStart: "1",
         frameEnd: "3",
-        description: "USN's new homepage featuring an updated and modern aesthetic. These first two slides feature both the homepage and various on/hover states for intactive items, while the third shows how the navigation will appear when interacted with.",
+        description: "Vermont Academy's new homepage featuring an updated and modern aesthetic. These first two slides feature both the homepage and various on/hover states for intactive items, while the third shows how the navigation will appear when interacted with.",
 
     },
     {
@@ -168,3 +183,4 @@ export const fixedNavGraphic = {
 
 projectInfo.type = projectTypes[0].display;
 projectInfo.frames= projectFrames.length;
+projectInfo.version = projectVersion[0].display;
