@@ -68,7 +68,7 @@ export const projectFrames = [
         img:"/images/hp1.jpg",
         height:"4633px",
         width: "1600px",
-        title: "USN's New Homepage",
+        title: "Vermont Academy's New Homepage",
         frameGroup:1,
         navGraphic: true,
         navGraphicToChange: true,
