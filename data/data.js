@@ -192,4 +192,4 @@ export const fixedNavGraphic = {
 
 projectInfo.type = projectTypes[0].display;
 projectInfo.frames= projectFrames.length;
-projectInfo.version = projectVersion[0].display;
+projectInfo.version = projectVersion[1].display;
