@@ -19,7 +19,7 @@ export default function TOCgrid() {
   return (
     <motion.div initial="hidden" animate="visible" exit="exit" variants={tocGridVariants}>
       <TOCsectionHeader>Table of Contents</TOCsectionHeader>
-      <div className="grid gap-4 grid-cols-2">
+      <div className="grid gap-4 grid-cols-3">
         {tocItemInfo.map((tocItemInfo) => {
           return (
             <motion.div variants={tocItemVariants} key={tocItemInfo.id}>

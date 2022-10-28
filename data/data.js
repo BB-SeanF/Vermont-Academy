@@ -48,18 +48,18 @@ export const tocItemInfo = [
         id: 2,
         title: "Sample Layout Pages",
         frameStart: "4",
-        frameEnd: "7",
+        frameEnd: "6",
         description: "A site is much more than just its homepage. Showcased on these slides are some example interior pages utilizing dummy content to give a rough idea of how the rest of the site will come together with this new design",
 
     },
-     /* {
+    {
         id: 3,
         title: "Block and Specialty Styles",
         frameStart: "7",
         frameEnd: "8",
         description: "These two slides are home to a showcase of the basic building block styles, along with some more specialty purpose styles that come with this new site design",
 
-    }, */
+    },
 ]
 
 export const projectFrames = [
@@ -106,7 +106,7 @@ export const projectFrames = [
         navGraphicToChange: false,
         description:`<p>Shown here is how VA’s new expanded navigation will look when an item is hovered over. For your reference, this slide does not scroll, instead consider this a snapshot of how nav elements will appear. The biggest item to note here is the Mega Menu panel dropdown. Shown here is the academics panel, though all panels will follow the same scheme, with a section for a header and text, and button. The main nav items in the center, and an associated photo on the far right. Laying the panel out like this, with the second level pages in the middle means that the user doesn't have to move their mouse very far, regardless of which main item they've engaged with.</p>`, 
     },
-    {
+    /*{
         id:4,
         img:"/images/hp4.jpg",
         height:"900px",
@@ -116,9 +116,9 @@ export const projectFrames = [
         navGraphic: false,
         navGraphicToChange: false,
         description:`<p>A question may have come up by now. "Where is the omni/auxiliary navigation?" At the tail end of the main nav we see a hamburger icon, which when engaged with will bring down a panel for "Community Links". "Give Now", "Parents", "Alumni" and "MyVA" are all here, along with a site search. Keeping these elements contained here allows for our main navigation to remain tight and minimal, fixed at the top of the screen.</p>`, 
-    },
+    },*/
     {
-        id:5,
+        id:4,
         img:"/images/lp.jpg",
         height:"3107px",
         width: "1600px",
@@ -129,7 +129,7 @@ export const projectFrames = [
         description:`<p>A school website is more than just the homepage, and as such this presentation includes three different sample interior layouts to preview. Each of these vary in scope and content (though they all use placeholder content), but they are all meant to showcase how interior pages can look with this new site design.</p><p>The first of these layouts has been dubbed "Landing Page" for it's overall scope of content, which can lean towards the wordier side, and would do well as an introduction page to a section.</p>`,
     },
     {
-        id:6,
+        id:5,
         img:"/images/wlsr.jpg",
         height:"2243",
         width: "1600px",
@@ -141,7 +141,7 @@ export const projectFrames = [
         <p>Perhaps immediately apparent here is how color is used on this layout. The previous layout showed different colors used across the page styling, this one however is more monochromatic. Either of course is an option.</p>`,
     },
     {
-        id:7,
+        id:6,
         img:"/images/vc.jpg",
         height:"2835px",
         width: "1600px",
@@ -152,40 +152,41 @@ export const projectFrames = [
         description:`<p>A school website is more than just the homepage, and as such this presentation includes three different sample interior layouts to preview. Each of these vary in scope and content (though they all use placeholder content), but they are all meant to showcase how interior pages can look with this new site design.</p><p>The last of the provided samples, the "Varied Content" showcases the flexibilty you'll have with the design. While a landing page isn't right for every page, and a simple layout might not do more engaging content justice, something in the middle might serve a page better.</p>
         <p>A difference from the "Landing Page" layout shown here and on the last frame would be how the page banner is treated. It can be hard to find a specific photo per page. Instead, these layouts are intended to leverage a small suite of campus shots or abstract shots that would be content agnostic so to speak</p>`,
     },
-     /*{
+    {
         id:7,
         img:"/images/bs.jpg",
-        height:"4911px",
+        height:"4217px",
         width: "1600px",
         title: "Block Styles",
         frameGroup:3,
         navGraphic: false,
         navGraphicToChange: false,
-        description:`<p>Showcased on these last two slides is a library or reference to all of the different building block styles your school will have at their disposal when it comes to building out pages. The first of these pages, entitled "Block Styles" shows off the basic type styling that will be used acrossed the site, along with how some specific content components will appear. You'll likely to never see a pae utalize all of these styles at once, and seeing them all here can be overwhelming at first, but remember that these slides are just a reference guide to show off design elements, as well as a reference for resources on our end to use when building out the site.</p>`,
+        description:`<p>Showcased on these last two slides is a library or reference to all of the different building block styles your school will have at their disposal when it comes to building out pages. The first of these pages, entitled "Block Styles" shows off the basic type styling that will be used acrossed the site, along with how some specific content components will appear. You'll likely to never see a pae utalize all of these styles at once, and seeing them all here can be overwhelming at first, but remember that these slides are just a reference guide to show off design elements, as well as a reference for resources on our end to use when building out the site.</p>
+        <p> As a brief aside here. I am acutely aware of just how much orange is on the page on this frame. It needs to be stated that you will receive different colored versions of a good chunk of these styles (buttons, blocks, etc), as well as you'll never see a page this loaded with items to begin with.</p>`,
     },
     {
         id:8,
         img:"/images/ss.jpg",
-        height:"5040px",
+        height:"5122px",
         width: "1600px",
         title: "Specialty Styles",
         frameGroup:3,
         navGraphic: false,
         navGraphicToChange: false,
         description:`<p>Showcased on these last two slides is a library or reference to all of the different building block styles your school will have at their disposal when it comes to building out pages. The first of these pages, entitled "Specialty Styles" shows off more specific use case styles, along with a suite of row styles that will give your school more flexibility in regards to content population. You'll likely to never see a pae utalize all of these styles at once, and seeing them all here can be overwhelming at first, but remember that these slides are just a reference guide to show off design elements, as well as a reference for resources on our end to use when building out the site.</p>`,
-    }  */
+    }
 ]
 
 export const fixedNavGraphic = {
     initial:{
         img:"/images/nav.png",
         width:"1600px",
-        height:"88px",
+        height:"108px",
     },
     scrolled: {
         img:"/images/navScrolled.png",
         width:"1600px",
-        height:"88px",
+        height:"108px",
     }
 }
 
