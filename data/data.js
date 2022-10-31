@@ -159,8 +159,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Block Styles",
         frameGroup:3,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:`<p>Showcased on these last two slides is a library or reference to all of the different building block styles your school will have at their disposal when it comes to building out pages. The first of these pages, entitled "Block Styles" shows off the basic type styling that will be used acrossed the site, along with how some specific content components will appear. You'll likely to never see a pae utalize all of these styles at once, and seeing them all here can be overwhelming at first, but remember that these slides are just a reference guide to show off design elements, as well as a reference for resources on our end to use when building out the site.</p>
         <p> As a brief aside here. I am acutely aware of just how much orange is on the page on this frame. It needs to be stated that you will receive different colored versions of a good chunk of these styles (buttons, blocks, etc), as well as you'll never see a page this loaded with items to begin with.</p>`,
     },
@@ -171,8 +171,8 @@ export const projectFrames = [
         width: "1600px",
         title: "Specialty Styles",
         frameGroup:3,
-        navGraphic: false,
-        navGraphicToChange: false,
+        navGraphic: true,
+        navGraphicToChange: true,
         description:`<p>Showcased on these last two slides is a library or reference to all of the different building block styles your school will have at their disposal when it comes to building out pages. The first of these pages, entitled "Specialty Styles" shows off more specific use case styles, along with a suite of row styles that will give your school more flexibility in regards to content population. You'll likely to never see a pae utalize all of these styles at once, and seeing them all here can be overwhelming at first, but remember that these slides are just a reference guide to show off design elements, as well as a reference for resources on our end to use when building out the site.</p>`,
     }
 ]
